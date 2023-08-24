@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C2DPushGraph - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\pine\AppData\Local\Temp\RSPF917.tmp" with contents
+[
+/nologo /MDd /W4 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/C2DPushGraph.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\pine\Desktop\C2DPushGraph_demo (1)\demo\C2DPushGraphDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\pine\AppData\Local\Temp\RSPF917.tmp" 
+Creating temporary file "C:\Users\pine\AppData\Local\Temp\RSPF918.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/C2DPushGraph.pdb" /debug /machine:I386 /out:"Debug/C2DPushGraph.exe" /pdbtype:sept 
+".\Debug\2DPushGraph.obj"
+".\Debug\C2DPushGraph.obj"
+".\Debug\C2DPushGraphDlg.obj"
+".\Debug\CpuUsage.obj"
+".\Debug\StdAfx.obj"
+".\Debug\C2DPushGraph.res"
+]
+Creating command line "link.exe @C:\Users\pine\AppData\Local\Temp\RSPF918.tmp"
+<h3>Output Window</h3>
+Compiling...
+C2DPushGraphDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/C2DPushGraph.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\2DPushGraph.sbr" ".\Debug\C2DPushGraph.sbr" ".\Debug\C2DPushGraphDlg.sbr" ".\Debug\CpuUsage.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C2DPushGraph.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
